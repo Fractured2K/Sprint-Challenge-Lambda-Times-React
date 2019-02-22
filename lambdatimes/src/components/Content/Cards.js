@@ -6,7 +6,6 @@ const Cards = props => {
   return (
     <div className="cards-container">
       {props.cards.map((card, i) => <Card card={card} key={i} />)}
-      {console.log(props)}
     </div>
   )
 }
