@@ -23,7 +23,7 @@ export default class Content extends Component {
   }
 
   changeSelected = tab => {
-    this.setStat({
+    this.setState({
       selected: tab
     })
   };
