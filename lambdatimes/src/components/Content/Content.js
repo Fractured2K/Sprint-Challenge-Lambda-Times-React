@@ -29,7 +29,7 @@ export default class Content extends Component {
   };
 
   filterCards = () => {
-    this.state.selected === 'all' ? this.state.cards : this.state.cards.filter(card => card.tab === this.state.selected);
+    return this.state.selected === 'all' ? this.state.cards : this.state.cards.filter(card => card.tab === this.state.selected);
   };
 
   render() {
